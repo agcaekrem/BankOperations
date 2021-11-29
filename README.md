@@ -48,7 +48,10 @@ Please find the Rest API documentation in the below url
 ![swagger 5](https://user-images.githubusercontent.com/64022432/143848768-aa26fa8c-da5a-40ed-9c75-217370eeca5a.jpg)
 
 # H2-Database
---
+Make sure to use jdbc:h2:mem:testdb as your jdbc url. If you intend to you use custom database name, please define datasource properties in application.yml
+- http://localhost:8080/h2-console
+-----
+
 ![H2-1](https://user-images.githubusercontent.com/64022432/143849035-19cdee4a-7bd1-4dbc-a92e-18422c2f87a6.png)
 --
 ![h2-0](https://user-images.githubusercontent.com/64022432/143849074-1d4247e1-6480-49ee-88c3-03ad67dee0d3.png)
