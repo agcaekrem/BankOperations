@@ -27,8 +27,10 @@ public class Customer {
 
     private String middleName;
 
+    //tckn veya uniqe id şeklinde düzenlenebilir
     private Long customerNumber;
 
+    //müşteri bankadaki durumu
     private String status;
 
     @OneToOne(cascade=CascadeType.ALL)
